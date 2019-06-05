@@ -1,0 +1,561 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Tue May 28 11:26:12 2019] ***
+compiled with version: 5.4.0 20160609 on 17 May 2019 08:47:25
+os: Linux-4.4.0-148-generic #174-Ubuntu SMP Tue May 7 12:20:14 UTC 2019
+nodename: iZwz9fjkqgok5kb2p98ce2Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /limou/Flask_ihome
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /limou/Flask_ihome
+your processes number limit is 7847
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:5000（可以与项目端口不一致） fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1936180
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 703440 bytes (686 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1936180 pid: 24769 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 24769)
+spawned uWSGI worker 1 (pid: 24775, cores: 2)
+spawned uWSGI worker 2 (pid: 24776, cores: 2)
+spawned uWSGI worker 3 (pid: 24777, cores: 2)
+spawned uWSGI worker 4 (pid: 24778, cores: 2)
+probably another instance of uWSGI is running on the same address (127.0.0.1:5000).
+bind(): Address already in use [core/socket.c line 769]
+...brutally killing workers...
+Tue May 28 11:26:13 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 11:26:13 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 11:26:13 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 11:26:13 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 11:26:13 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 11:26:13 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Tue May 28 11:27:43 2019] ***
+compiled with version: 5.4.0 20160609 on 17 May 2019 08:47:25
+os: Linux-4.4.0-148-generic #174-Ubuntu SMP Tue May 7 12:20:14 UTC 2019
+nodename: iZwz9fjkqgok5kb2p98ce2Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /limou/Flask_ihome
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /limou/Flask_ihome
+your processes number limit is 7847
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:5000（可以与项目端口不一致） fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0xa64180
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 703440 bytes (686 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xa64180 pid: 24791 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 24791)
+spawned uWSGI worker 1 (pid: 24797, cores: 2)
+spawned uWSGI worker 2 (pid: 24798, cores: 2)
+spawned uWSGI worker 3 (pid: 24799, cores: 2)
+spawned uWSGI worker 4 (pid: 24800, cores: 2)
+probably another instance of uWSGI is running on the same address (127.0.0.1:5000).
+bind(): Address already in use [core/socket.c line 769]
+...brutally killing workers...
+Tue May 28 11:27:44 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 11:27:44 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 11:27:44 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 11:27:44 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 11:27:44 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 11:27:44 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Tue May 28 11:47:05 2019] ***
+compiled with version: 5.4.0 20160609 on 17 May 2019 08:47:25
+os: Linux-4.4.0-148-generic #174-Ubuntu SMP Tue May 7 12:20:14 UTC 2019
+nodename: iZwz9fjkqgok5kb2p98ce2Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /limou/Flask_ihome
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /limou/Flask_ihome
+your processes number limit is 7847
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:5050（可以与项目端口不一致） fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0xbd4180
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 703440 bytes (686 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xbd4180 pid: 24952 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 24952)
+spawned uWSGI worker 1 (pid: 24958, cores: 2)
+spawned uWSGI worker 2 (pid: 24959, cores: 2)
+spawned uWSGI worker 3 (pid: 24960, cores: 2)
+spawned uWSGI worker 4 (pid: 24961, cores: 2)
+*** Stats server enabled on 127.0.0.1:5000 fd: 17 ***
+*** Starting uWSGI 2.0.18 (64bit) on [Tue May 28 14:06:38 2019] ***
+compiled with version: 5.4.0 20160609 on 17 May 2019 08:47:25
+os: Linux-4.4.0-148-generic #174-Ubuntu SMP Tue May 7 12:20:14 UTC 2019
+nodename: iZwz9fjkqgok5kb2p98ce2Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /limou/Flask_ihome
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /limou/Flask_ihome
+your processes number limit is 7847
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:5050（可以与项目端口不一致）).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Tue May 28 14:08:42 2019] ***
+compiled with version: 5.4.0 20160609 on 17 May 2019 08:47:25
+os: Linux-4.4.0-148-generic #174-Ubuntu SMP Tue May 7 12:20:14 UTC 2019
+nodename: iZwz9fjkqgok5kb2p98ce2Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /limou/Flask_ihome
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /limou/Flask_ihome
+your processes number limit is 7847
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:5050（可以与项目端口不一致）).
+bind(): Address already in use [core/socket.c line 769]
+Tue May 28 14:49:08 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Tue May 28 14:49:18 2019] ***
+compiled with version: 5.4.0 20160609 on 17 May 2019 08:47:25
+os: Linux-4.4.0-148-generic #174-Ubuntu SMP Tue May 7 12:20:14 UTC 2019
+nodename: iZwz9fjkqgok5kb2p98ce2Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /limou/Flask_ihome
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /limou/Flask_ihome
+your processes number limit is 7847
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:5050（可以与项目端口不一致） fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x25a0180
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 703440 bytes (686 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x25a0180 pid: 25365 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 25365)
+spawned uWSGI worker 1 (pid: 25371, cores: 2)
+spawned uWSGI worker 2 (pid: 25372, cores: 2)
+spawned uWSGI worker 3 (pid: 25373, cores: 2)
+spawned uWSGI worker 4 (pid: 25374, cores: 2)
+*** Stats server enabled on 127.0.0.1:5000 fd: 17 ***
+[pid: 25374|app: 0|req: 1/1] 221.221.148.230 () {48 vars in 1073 bytes} [Tue May 28 14:49:27 2019] GET / => generated 6577 bytes in 10 msecs via sendfile() (HTTP/1.1 200) 10 headers in 574 bytes (0 switches on core 0)
+[pid: 25374|app: 0|req: 2/2] 221.221.148.230 () {44 vars in 983 bytes} [Tue May 28 14:49:28 2019] GET /api/v1.0/session => generated 79 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 214 bytes (1 switches on core 1)
+[pid: 25371|app: 0|req: 2/3] 221.221.148.230 () {44 vars in 936 bytes} [Tue May 28 14:49:28 2019] GET /api/v1.0/areas => generated 697 bytes in 28 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25371|app: 0|req: 2/4] 221.221.148.230 () {44 vars in 950 bytes} [Tue May 28 14:49:28 2019] GET /api/v1.0/houses/index => generated 1590 bytes in 76 msecs (HTTP/1.1 200) 3 headers in 216 bytes (1 switches on core 0)
+[pid: 25371|app: 0|req: 3/5] 221.221.155.72 () {48 vars in 1114 bytes} [Tue May 28 14:51:05 2019] GET /my.html => generated 0 bytes in 6 msecs (HTTP/1.1 304) 7 headers in 477 bytes (0 switches on core 1)
+[pid: 25374|app: 0|req: 3/6] 221.221.155.72 () {44 vars in 983 bytes} [Tue May 28 14:51:06 2019] GET /api/v1.0/user => generated 249 bytes in 59 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 0)
+[pid: 25374|app: 0|req: 4/7] 221.221.155.72 () {48 vars in 1138 bytes} [Tue May 28 14:51:08 2019] DELETE /api/v1.0/session => generated 38 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 1)
+[pid: 25373|app: 0|req: 1/8] 221.221.155.72 () {44 vars in 1012 bytes} [Tue May 28 14:51:09 2019] GET /index.html => generated 6577 bytes in 10 msecs via sendfile() (HTTP/1.1 200) 10 headers in 535 bytes (0 switches on core 0)
+[pid: 25373|app: 0|req: 2/9] 221.221.155.72 () {44 vars in 992 bytes} [Tue May 28 14:51:09 2019] GET /api/v1.0/session => generated 44 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 1)
+[pid: 25372|app: 0|req: 1/10] 221.221.155.72 () {44 vars in 959 bytes} [Tue May 28 14:51:09 2019] GET /api/v1.0/houses/index => generated 1590 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 177 bytes (1 switches on core 0)
+[pid: 25373|app: 0|req: 3/11] 221.221.148.230 () {44 vars in 946 bytes} [Tue May 28 14:51:09 2019] GET /api/v1.0/areas => generated 697 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25371|app: 0|req: 4/12] 221.221.148.230 () {48 vars in 1131 bytes} [Tue May 28 14:51:10 2019] GET /login.html => generated 0 bytes in 2 msecs (HTTP/1.1 304) 7 headers in 438 bytes (0 switches on core 0)
+[pid: 25371|app: 0|req: 5/13] 221.221.155.72 () {52 vars in 1221 bytes} [Tue May 28 14:51:20 2019] POST /api/v1.0/sessions => generated 60 bytes in 149 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 1)
+[pid: 25374|app: 0|req: 5/14] 221.221.155.72 () {44 vars in 982 bytes} [Tue May 28 14:51:20 2019] GET /api/v1.0/session => generated 84 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 0)
+[pid: 25372|app: 0|req: 2/15] 221.221.150.242 () {44 vars in 950 bytes} [Tue May 28 14:51:20 2019] GET /api/v1.0/houses/index => generated 1590 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 177 bytes (1 switches on core 1)
+[pid: 25373|app: 0|req: 4/16] 221.221.154.73 () {44 vars in 935 bytes} [Tue May 28 14:51:20 2019] GET /api/v1.0/areas => generated 697 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 0)
+[pid: 25373|app: 0|req: 5/17] 221.221.154.73 () {44 vars in 983 bytes} [Tue May 28 14:51:28 2019] GET /api/v1.0/user => generated 254 bytes in 60 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25374|app: 0|req: 6/18] 221.221.154.17 () {44 vars in 1014 bytes} [Tue May 28 14:51:32 2019] GET /orders.html => generated 5808 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 536 bytes (0 switches on core 1)
+[pid: 25372|app: 0|req: 3/19] 221.221.154.17 () {44 vars in 981 bytes} [Tue May 28 14:51:32 2019] GET /api/v1.0/user/orders?role=custom => generated 895 bytes in 69 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 0)
+[pid: 25372|app: 0|req: 4/20] 221.221.154.17 () {50 vars in 1183 bytes} [Tue May 28 14:51:34 2019] POST /api/v1.0/orders/2/payment => generated 854 bytes in 86 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25374|app: 0|req: 7/21] 221.221.149.69 () {44 vars in 982 bytes} [Tue May 28 14:51:54 2019] GET /api/v1.0/session => generated 84 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 0)
+[pid: 25371|app: 0|req: 7/22] 221.221.149.69 () {44 vars in 949 bytes} [Tue May 28 14:51:55 2019] GET /api/v1.0/houses/index => generated 1590 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 177 bytes (1 switches on core 0)
+[pid: 25371|app: 0|req: 7/23] 221.221.149.69 () {44 vars in 935 bytes} [Tue May 28 14:51:55 2019] GET /api/v1.0/areas => generated 697 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25374|app: 0|req: 8/24] 221.221.149.69 () {44 vars in 1122 bytes} [Tue May 28 14:52:51 2019] GET /search.html?aid=4&aname=%E6%B5%B7%E6%B7%80%E5%8C%BA&sd=2019-05-29&ed= => generated 4936 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 535 bytes (0 switches on core 1)
+[pid: 25372|app: 0|req: 5/25] 221.221.149.69 () {44 vars in 1004 bytes} [Tue May 28 14:52:51 2019] GET /api/v1.0/areas => generated 697 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 0)
+[pid: 25373|app: 0|req: 6/26] 221.221.149.69 () {44 vars in 1075 bytes} [Tue May 28 14:52:51 2019] GET /api/v1.0/houses?aid=4&sd=2019-05-29&ed=&sk=new&p=1 => generated 90 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 0)
+[pid: 25373|app: 0|req: 7/27] 221.221.154.73 () {44 vars in 1075 bytes} [Tue May 28 14:53:17 2019] GET /api/v1.0/houses?aid=3&sd=2019-05-29&ed=&sk=new&p=1 => generated 498 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25372|app: 0|req: 6/28] 221.221.154.73 () {44 vars in 1075 bytes} [Tue May 28 14:53:24 2019] GET /api/v1.0/houses?aid=1&sd=2019-05-29&ed=&sk=new&p=1 => generated 485 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25374|app: 0|req: 9/29] 221.221.154.73 () {44 vars in 1073 bytes} [Tue May 28 14:53:29 2019] GET /api/v1.0/houses?aid=&sd=2019-05-29&ed=&sk=new&p=1 => generated 857 bytes in 23 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 0)
+[pid: 25374|app: 0|req: 10/30] 221.221.148.230 () {42 vars in 728 bytes} [Tue May 28 14:56:13 2019] GET / => generated 6577 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 574 bytes (0 switches on core 1)
+[pid: 25372|app: 0|req: 7/31] 221.221.150.242 () {46 vars in 920 bytes} [Tue May 28 14:56:13 2019] GET /api/v1.0/session => generated 44 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 214 bytes (1 switches on core 0)
+[pid: 25372|app: 0|req: 8/32] 221.221.150.242 () {46 vars in 887 bytes} [Tue May 28 14:56:13 2019] GET /api/v1.0/houses/index => generated 1590 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 216 bytes (1 switches on core 1)
+[pid: 25371|app: 0|req: 8/33] 221.221.150.242 () {46 vars in 873 bytes} [Tue May 28 14:56:14 2019] GET /api/v1.0/areas => generated 697 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 0)
+[pid: 25371|app: 0|req: 9/34] 221.221.150.242 () {44 vars in 864 bytes} [Tue May 28 14:56:15 2019] GET /favicon.ico => generated 2832 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 573 bytes (0 switches on core 1)
+[pid: 25374|app: 0|req: 11/35] 221.221.150.242 () {46 vars in 1113 bytes} [Tue May 28 14:56:54 2019] GET /search.html?aid=4&aname=%E6%B5%B7%E6%B7%80%E5%8C%BA&sd=2019-05-31&ed=2019-05-31 => generated 4936 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 574 bytes (0 switches on core 0)
+[pid: 25372|app: 0|req: 9/36] 221.221.150.242 () {46 vars in 952 bytes} [Tue May 28 14:56:55 2019] GET /api/v1.0/areas => generated 697 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 0)
+[pid: 25371|app: 0|req: 10/37] 221.221.150.242 () {46 vars in 1043 bytes} [Tue May 28 14:56:55 2019] GET /api/v1.0/houses?aid=4&sd=2019-05-31&ed=2019-05-31&sk=new&p=1 => generated 90 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 214 bytes (1 switches on core 0)
+[pid: 25374|app: 0|req: 12/38] 221.221.150.242 () {46 vars in 920 bytes} [Tue May 28 14:57:05 2019] GET /api/v1.0/session => generated 44 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 214 bytes (1 switches on core 1)
+[pid: 25372|app: 0|req: 11/39] 221.221.150.242 () {46 vars in 873 bytes} [Tue May 28 14:57:05 2019] GET /api/v1.0/areas => generated 697 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 0)
+[pid: 25372|app: 0|req: 11/40] 221.221.150.242 () {46 vars in 887 bytes} [Tue May 28 14:57:05 2019] GET /api/v1.0/houses/index => generated 1590 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 216 bytes (1 switches on core 1)
+[pid: 25373|app: 0|req: 8/41] 221.221.150.242 () {46 vars in 976 bytes} [Tue May 28 14:57:08 2019] GET /login.html => generated 2123 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 575 bytes (0 switches on core 0)
+[pid: 25373|app: 0|req: 9/42] 221.221.150.242 () {46 vars in 992 bytes} [Tue May 28 14:57:10 2019] GET /register.html => generated 3888 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 10 headers in 575 bytes (0 switches on core 1)
+[pid: 25371|app: 0|req: 11/43] 221.221.150.242 () {44 vars in 969 bytes} [Tue May 28 14:57:10 2019] GET /api/v1.0/image_codes/87f34ce2-9461-41ef-bf25-abada04351cd => generated 3295 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 209 bytes (1 switches on core 1)
+[pid: 25374|app: 0|req: 13/44] 221.221.150.242 () {44 vars in 969 bytes} [Tue May 28 14:57:17 2019] GET /api/v1.0/image_codes/595400c1-96b1-42bd-b6aa-9f4b15ae16f3 => generated 2938 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 209 bytes (1 switches on core 0)
+make_code 5830
+58169617-8706-4b2b-a8c4-b20b8b6d2df1
+[pid: 25374|app: 0|req: 15/45] 221.221.149.69 () {44 vars in 982 bytes} [Tue May 28 14:57:59 2019] GET /api/v1.0/session => generated 84 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 0)
+[pid: 25372|app: 0|req: 12/46] 221.221.149.69 () {44 vars in 949 bytes} [Tue May 28 14:57:59 2019] GET /api/v1.0/houses/index => generated 1590 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 177 bytes (1 switches on core 0)
+[pid: 25372|app: 0|req: 13/47] 221.221.149.69 () {44 vars in 935 bytes} [Tue May 28 14:57:59 2019] GET /api/v1.0/areas => generated 697 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25373|app: 0|req: 10/48] 221.221.150.242 () {44 vars in 969 bytes} [Tue May 28 14:58:00 2019] GET /api/v1.0/image_codes/808525dc-acfa-4aaa-9aa7-33af3faeb2d7 => generated 3000 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 209 bytes (1 switches on core 0)
+[pid: 25373|app: 0|req: 11/49] 221.221.150.242 () {44 vars in 969 bytes} [Tue May 28 14:58:01 2019] GET /api/v1.0/image_codes/7297bfad-2e0c-49a8-a79c-7c26d356a3d9 => generated 3359 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 209 bytes (1 switches on core 1)
+[pid: 25374|app: 0|req: 16/50] 221.221.150.242 () {44 vars in 969 bytes} [Tue May 28 14:58:02 2019] GET /api/v1.0/image_codes/9ca64220-4fbe-48f1-8677-fbf9d9a7f7bc => generated 3029 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 209 bytes (1 switches on core 0)
+[pid: 25373|app: 0|req: 12/51] 221.221.150.242 () {44 vars in 969 bytes} [Tue May 28 14:58:03 2019] GET /api/v1.0/image_codes/a67a86b6-b6f2-4178-960f-a59e6952fe7f => generated 3368 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 209 bytes (1 switches on core 0)
+[pid: 25373|app: 0|req: 13/52] 221.221.148.230 () {44 vars in 984 bytes} [Tue May 28 14:59:22 2019] GET /api/v1.0/user => generated 254 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25374|app: 0|req: 17/53] 221.221.154.17 () {48 vars in 1138 bytes} [Tue May 28 14:59:25 2019] DELETE /api/v1.0/session => generated 38 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 0)
+[pid: 25372|app: 0|req: 14/54] 221.221.154.17 () {44 vars in 992 bytes} [Tue May 28 14:59:25 2019] GET /api/v1.0/session => generated 44 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 0)
+[pid: 25371|app: 0|req: 12/55] 221.221.154.17 () {44 vars in 959 bytes} [Tue May 28 14:59:25 2019] GET /api/v1.0/houses/index => generated 1590 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 177 bytes (1 switches on core 0)
+[pid: 25371|app: 0|req: 13/56] 221.221.154.17 () {44 vars in 945 bytes} [Tue May 28 14:59:25 2019] GET /api/v1.0/areas => generated 697 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25373|app: 0|req: 14/57] 221.221.154.17 () {44 vars in 1021 bytes} [Tue May 28 14:59:28 2019] GET /register.html => generated 3888 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 536 bytes (0 switches on core 0)
+==================================================
+真实验证码 5830
+校验验证码 5830
+==================================================
+[pid: 25373|app: 0|req: 15/58] 221.221.154.17 () {42 vars in 1031 bytes} [Tue May 28 14:59:28 2019] GET /api/v1.0/image_codes/0796e63e-8daf-4bea-b828-3f9f98564988 => generated 2784 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 170 bytes (1 switches on core 1)
+[pid: 25372|app: 0|req: 15/59] 221.221.149.156 () {54 vars in 1156 bytes} [Tue May 28 14:59:28 2019] POST /api/v1.0/users => generated 60 bytes in 259 msecs (HTTP/1.1 200) 3 headers in 214 bytes (1 switches on core 1)
+[pid: 25374|app: 0|req: 18/60] 221.221.149.156 () {46 vars in 989 bytes} [Tue May 28 14:59:29 2019] GET /index.html => generated 6577 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 574 bytes (0 switches on core 0)
+[pid: 25373|app: 0|req: 16/61] 221.221.154.17 () {46 vars in 896 bytes} [Tue May 28 14:59:29 2019] GET /api/v1.0/houses/index => generated 1590 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 216 bytes (1 switches on core 0)
+[pid: 25372|app: 0|req: 16/62] 221.221.149.156 () {46 vars in 930 bytes} [Tue May 28 14:59:29 2019] GET /api/v1.0/session => generated 84 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 214 bytes (1 switches on core 0)
+[pid: 25373|app: 0|req: 17/63] 221.221.154.17 () {46 vars in 882 bytes} [Tue May 28 14:59:29 2019] GET /api/v1.0/areas => generated 697 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25371|app: 0|req: 14/64] 221.221.154.17 () {46 vars in 979 bytes} [Tue May 28 14:59:33 2019] GET /my.html => generated 3310 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 575 bytes (0 switches on core 0)
+[pid: 25371|app: 0|req: 15/65] 221.221.154.17 () {46 vars in 920 bytes} [Tue May 28 14:59:33 2019] GET /api/v1.0/user => generated 193 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25373|app: 0|req: 18/66] 221.221.154.17 () {46 vars in 986 bytes} [Tue May 28 14:59:37 2019] GET /profile.html => generated 3306 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 575 bytes (0 switches on core 0)
+[pid: 25373|app: 0|req: 19/67] 221.221.154.17 () {46 vars in 925 bytes} [Tue May 28 14:59:37 2019] GET /api/v1.0/user => generated 193 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25374|app: 0|req: 19/68] 221.221.154.17 () {54 vars in 1163 bytes} [Tue May 28 14:59:43 2019] PUT /api/v1.0/users/name => generated 82 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 214 bytes (1 switches on core 0)
+make_code 1286
+9bf65d1a-28d5-4477-810b-7b427df0cdb8
+[pid: 25373|app: 0|req: 21/69] 221.221.154.17 () {46 vars in 920 bytes} [Tue May 28 14:59:47 2019] GET /api/v1.0/user => generated 193 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25374|app: 0|req: 20/70] 221.221.154.17 () {52 vars in 1127 bytes} [Tue May 28 14:59:48 2019] GET /my.html => generated 0 bytes in 2 msecs (HTTP/1.1 304) 7 headers in 477 bytes (0 switches on core 0)
+[pid: 25372|app: 0|req: 17/71] 221.221.154.17 () {46 vars in 920 bytes} [Tue May 28 14:59:48 2019] GET /api/v1.0/user => generated 193 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 0)
+[pid: 25372|app: 0|req: 18/72] 221.221.154.17 () {48 vars in 923 bytes} [Tue May 28 14:59:48 2019] GET /favicon.ico => generated 2832 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 10 headers in 573 bytes (0 switches on core 1)
+[pid: 25373|app: 0|req: 22/73] 221.221.154.17 () {46 vars in 984 bytes} [Tue May 28 15:00:02 2019] GET /orders.html => generated 5808 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 575 bytes (0 switches on core 1)
+[pid: 25371|app: 0|req: 16/74] 221.221.149.156 () {46 vars in 919 bytes} [Tue May 28 15:00:02 2019] GET /api/v1.0/user/orders?role=custom => generated 73 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 214 bytes (1 switches on core 0)
+[pid: 25371|app: 0|req: 17/75] 221.221.149.156 () {46 vars in 921 bytes} [Tue May 28 15:00:03 2019] GET /api/v1.0/user => generated 193 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25373|app: 0|req: 23/76] 221.221.149.156 () {46 vars in 981 bytes} [Tue May 28 15:00:04 2019] GET /auth.html => generated 3033 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 575 bytes (0 switches on core 1)
+[pid: 25372|app: 0|req: 19/77] 221.221.149.156 () {46 vars in 935 bytes} [Tue May 28 15:00:05 2019] GET /api/v1.0/users/auth => generated 119 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 0)
+[pid: 25372|app: 0|req: 20/78] 221.221.149.156 () {46 vars in 921 bytes} [Tue May 28 15:00:06 2019] GET /api/v1.0/user => generated 193 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25373|app: 0|req: 24/79] 221.221.149.156 () {46 vars in 987 bytes} [Tue May 28 15:00:07 2019] GET /myhouse.html => generated 3389 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 575 bytes (0 switches on core 1)
+[pid: 25371|app: 0|req: 18/80] 221.221.154.17 () {46 vars in 894 bytes} [Tue May 28 15:00:07 2019] GET /api/v1.0/users/auth => generated 119 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 0)
+[pid: 25371|app: 0|req: 19/81] 221.221.154.17 () {46 vars in 920 bytes} [Tue May 28 15:00:09 2019] GET /api/v1.0/user => generated 193 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25373|app: 0|req: 25/82] 221.221.154.17 () {46 vars in 986 bytes} [Tue May 28 15:00:11 2019] GET /lorders.html => generated 6591 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 575 bytes (0 switches on core 1)
+[pid: 25372|app: 0|req: 21/83] 221.221.154.17 () {46 vars in 923 bytes} [Tue May 28 15:00:11 2019] GET /api/v1.0/user/orders?role=landlord => generated 73 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 214 bytes (1 switches on core 0)
+[pid: 25373|app: 0|req: 26/84] 221.221.154.17 () {46 vars in 920 bytes} [Tue May 28 15:00:13 2019] GET /api/v1.0/user => generated 193 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25372|app: 0|req: 22/85] 221.221.154.17 () {46 vars in 919 bytes} [Tue May 28 15:00:20 2019] GET /api/v1.0/session => generated 84 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 214 bytes (1 switches on core 1)
+[pid: 25371|app: 0|req: 21/86] 221.221.149.156 () {46 vars in 887 bytes} [Tue May 28 15:00:20 2019] GET /api/v1.0/houses/index => generated 1590 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 216 bytes (1 switches on core 0)
+[pid: 25371|app: 0|req: 21/87] 221.221.154.17 () {46 vars in 872 bytes} [Tue May 28 15:00:20 2019] GET /api/v1.0/areas => generated 697 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25373|app: 0|req: 27/88] 221.221.149.156 () {42 vars in 1142 bytes} [Tue May 28 15:01:27 2019] GET /api/v1.0/sms_codes/18516985682?image_code=75ja&image_code_id=0796e63e-8daf-4bea-b828-3f9f98564988 => generated 81 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 1)
+[pid: 25374|app: 0|req: 21/89] 222.128.181.227 () {50 vars in 1168 bytes} [Tue May 28 15:01:39 2019] GET /register.html => generated 0 bytes in 2 msecs (HTTP/1.1 304) 7 headers in 438 bytes (0 switches on core 0)
+[pid: 25371|app: 0|req: 22/90] 222.128.181.227 () {42 vars in 1032 bytes} [Tue May 28 15:01:39 2019] GET /api/v1.0/image_codes/62bfbea1-5c93-406a-859c-54500773c768 => generated 3030 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 170 bytes (1 switches on core 0)
+[pid: 25373|app: 0|req: 28/91] 221.221.148.230 () {46 vars in 921 bytes} [Tue May 28 15:01:44 2019] GET /api/v1.0/user => generated 193 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25371|app: 0|req: 23/92] 221.221.148.230 () {46 vars in 926 bytes} [Tue May 28 15:01:48 2019] GET /api/v1.0/user => generated 193 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25374|app: 0|req: 22/93] 222.128.182.229 () {44 vars in 1114 bytes} [Tue May 28 15:01:52 2019] GET /api/v1.0/sms_codes/17600751930?image_code=tokq&image_code_id=62bfbea1-5c93-406a-859c-54500773c768 => generated 75 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 0)
+[pid: 25373|app: 0|req: 29/94] 221.221.148.230 () {54 vars in 1164 bytes} [Tue May 28 15:01:54 2019] PUT /api/v1.0/users/name => generated 75 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 214 bytes (1 switches on core 1)
+[pid: 25374|app: 0|req: 23/95] 221.221.148.230 () {46 vars in 921 bytes} [Tue May 28 15:01:57 2019] GET /api/v1.0/user => generated 186 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 0)
+[pid: 25371|app: 0|req: 24/96] 222.128.182.229 () {44 vars in 1114 bytes} [Tue May 28 15:01:58 2019] GET /api/v1.0/sms_codes/17600751938?image_code=tokq&image_code_id=62bfbea1-5c93-406a-859c-54500773c768 => generated 81 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 0)
+[pid: 25372|app: 0|req: 23/97] 221.221.148.230 () {52 vars in 1128 bytes} [Tue May 28 15:01:58 2019] GET /my.html => generated 0 bytes in 3 msecs (HTTP/1.1 304) 7 headers in 477 bytes (0 switches on core 0)
+[pid: 25371|app: 0|req: 25/98] 221.221.148.230 () {46 vars in 921 bytes} [Tue May 28 15:01:58 2019] GET /api/v1.0/user => generated 186 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25373|app: 0|req: 30/99] 221.221.148.230 () {48 vars in 924 bytes} [Tue May 28 15:01:58 2019] GET /favicon.ico => generated 2832 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 573 bytes (0 switches on core 1)
+[pid: 25372|app: 0|req: 24/100] 221.221.148.230 () {52 vars in 1133 bytes} [Tue May 28 15:02:02 2019] GET /profile.html => generated 0 bytes in 2 msecs (HTTP/1.1 304) 7 headers in 477 bytes (0 switches on core 1)
+[pid: 25371|app: 0|req: 26/101] 221.221.148.230 () {46 vars in 926 bytes} [Tue May 28 15:02:02 2019] GET /api/v1.0/user => generated 186 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 0)
+[pid: 25374|app: 0|req: 24/102] 221.221.154.17 () {48 vars in 928 bytes} [Tue May 28 15:02:02 2019] GET /favicon.ico => generated 2832 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 573 bytes (0 switches on core 0)
+[pid: 25372|app: 0|req: 25/103] 221.221.148.230 () {42 vars in 1032 bytes} [Tue May 28 15:02:05 2019] GET /api/v1.0/image_codes/7f2aac75-36a4-4dce-86c6-a21eb0608f49 => generated 3289 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 170 bytes (1 switches on core 0)
+[pid: 25373|app: 0|req: 31/104] 221.221.154.17 () {46 vars in 920 bytes} [Tue May 28 15:02:06 2019] GET /api/v1.0/user => generated 186 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25371|app: 0|req: 27/105] 221.221.154.17 () {52 vars in 1127 bytes} [Tue May 28 15:02:08 2019] GET /my.html => generated 0 bytes in 3 msecs (HTTP/1.1 304) 7 headers in 477 bytes (0 switches on core 1)
+[pid: 25374|app: 0|req: 25/106] 221.221.154.17 () {46 vars in 920 bytes} [Tue May 28 15:02:08 2019] GET /api/v1.0/user => generated 186 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 0)
+[pid: 25372|app: 0|req: 26/107] 221.221.148.230 () {48 vars in 924 bytes} [Tue May 28 15:02:08 2019] GET /favicon.ico => generated 2832 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 573 bytes (0 switches on core 1)
+make_code 1063
+6bf83949-d075-46b0-b5a9-6847c783fedf
+[pid: 25373|app: 0|req: 32/108] 221.221.148.230 () {46 vars in 920 bytes} [Tue May 28 15:02:14 2019] GET /api/v1.0/session => generated 77 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 214 bytes (1 switches on core 1)
+[pid: 25372|app: 0|req: 27/109] 221.221.154.17 () {46 vars in 886 bytes} [Tue May 28 15:02:14 2019] GET /api/v1.0/houses/index => generated 1590 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 216 bytes (1 switches on core 0)
+[pid: 25374|app: 0|req: 26/110] 221.221.148.230 () {46 vars in 873 bytes} [Tue May 28 15:02:14 2019] GET /api/v1.0/areas => generated 697 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 0)
+[pid: 25373|app: 0|req: 33/111] 221.221.155.72 () {44 vars in 982 bytes} [Tue May 28 15:08:51 2019] GET /api/v1.0/session => generated 44 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 1)
+[pid: 25372|app: 0|req: 28/112] 221.221.155.72 () {44 vars in 949 bytes} [Tue May 28 15:08:51 2019] GET /api/v1.0/houses/index => generated 1590 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 177 bytes (1 switches on core 1)
+[pid: 25374|app: 0|req: 27/113] 221.221.150.242 () {44 vars in 936 bytes} [Tue May 28 15:08:51 2019] GET /api/v1.0/areas => generated 697 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 0)
+[pid: 25371|app: 0|req: 29/114] 221.221.149.156 () {44 vars in 1103 bytes} [Tue May 28 15:09:05 2019] GET /search.html?aid=1&aname=%E4%B8%9C%E5%9F%8E%E5%8C%BA&sd=&ed= => generated 4936 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 535 bytes (0 switches on core 1)
+[pid: 25372|app: 0|req: 29/115] 221.221.149.156 () {44 vars in 995 bytes} [Tue May 28 15:09:06 2019] GET /api/v1.0/areas => generated 697 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 0)
+[pid: 25373|app: 0|req: 34/116] 221.221.149.156 () {44 vars in 1046 bytes} [Tue May 28 15:09:06 2019] GET /api/v1.0/houses?aid=1&sd=&ed=&sk=new&p=1 => generated 485 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25371|app: 0|req: 30/117] 221.221.155.72 () {44 vars in 982 bytes} [Tue May 28 15:09:42 2019] GET /api/v1.0/session => generated 44 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 1)
+[pid: 25374|app: 0|req: 28/118] 114.249.225.34 () {44 vars in 949 bytes} [Tue May 28 15:09:42 2019] GET /api/v1.0/houses/index => generated 1590 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 177 bytes (1 switches on core 0)
+[pid: 25372|app: 0|req: 30/119] 221.221.155.72 () {44 vars in 935 bytes} [Tue May 28 15:09:42 2019] GET /api/v1.0/areas => generated 697 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25372|app: 0|req: 31/120] 221.221.155.72 () {52 vars in 1221 bytes} [Tue May 28 15:09:48 2019] POST /api/v1.0/sessions => generated 87 bytes in 208 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 0)
+[pid: 25373|app: 0|req: 35/121] 221.221.151.104 () {52 vars in 1222 bytes} [Tue May 28 15:09:52 2019] POST /api/v1.0/sessions => generated 60 bytes in 146 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 1)
+[pid: 25371|app: 0|req: 31/122] 221.221.149.69 () {44 vars in 949 bytes} [Tue May 28 15:09:52 2019] GET /api/v1.0/houses/index => generated 1590 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 177 bytes (1 switches on core 1)
+[pid: 25374|app: 0|req: 29/123] 221.221.151.104 () {44 vars in 983 bytes} [Tue May 28 15:09:52 2019] GET /api/v1.0/session => generated 79 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 0)
+[pid: 25372|app: 0|req: 32/124] 221.221.149.69 () {44 vars in 935 bytes} [Tue May 28 15:09:52 2019] GET /api/v1.0/areas => generated 697 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25372|app: 0|req: 33/125] 221.221.149.69 () {44 vars in 983 bytes} [Tue May 28 15:09:55 2019] GET /api/v1.0/user => generated 249 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 0)
+[pid: 25371|app: 0|req: 32/126] 221.221.149.69 () {44 vars in 981 bytes} [Tue May 28 15:09:59 2019] GET /api/v1.0/user/orders?role=custom => generated 73 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 1)
+[pid: 25373|app: 0|req: 36/127] 221.221.155.72 () {44 vars in 983 bytes} [Tue May 28 15:10:01 2019] GET /api/v1.0/user => generated 249 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25372|app: 0|req: 34/128] 221.221.155.72 () {44 vars in 1010 bytes} [Tue May 28 15:10:03 2019] GET /auth.html => generated 3033 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 536 bytes (0 switches on core 1)
+[pid: 25374|app: 0|req: 30/129] 221.221.149.156 () {44 vars in 998 bytes} [Tue May 28 15:10:04 2019] GET /api/v1.0/users/auth => generated 137 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 0)
+[pid: 25372|app: 0|req: 35/130] 221.221.149.156 () {44 vars in 984 bytes} [Tue May 28 15:10:06 2019] GET /api/v1.0/user => generated 249 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 0)
+[pid: 25371|app: 0|req: 33/131] 221.221.149.156 () {44 vars in 1017 bytes} [Tue May 28 15:10:08 2019] GET /myhouse.html => generated 3389 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 536 bytes (0 switches on core 1)
+[pid: 25372|app: 0|req: 36/132] 221.221.155.72 () {44 vars in 957 bytes} [Tue May 28 15:10:08 2019] GET /api/v1.0/users/auth => generated 137 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25373|app: 0|req: 37/133] 221.221.155.72 () {44 vars in 959 bytes} [Tue May 28 15:10:08 2019] GET /api/v1.0/user/houses => generated 2047 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 177 bytes (1 switches on core 1)
+[pid: 25371|app: 0|req: 34/134] 221.221.149.69 () {44 vars in 983 bytes} [Tue May 28 15:10:13 2019] GET /api/v1.0/user => generated 249 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25374|app: 0|req: 31/135] 221.221.149.69 () {44 vars in 957 bytes} [Tue May 28 15:10:16 2019] GET /api/v1.0/users/auth => generated 137 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 0)
+[pid: 25372|app: 0|req: 37/136] 221.221.149.69 () {44 vars in 959 bytes} [Tue May 28 15:10:16 2019] GET /api/v1.0/user/houses => generated 2047 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 177 bytes (1 switches on core 0)
+[pid: 25373|app: 0|req: 38/137] 221.221.154.17 () {44 vars in 983 bytes} [Tue May 28 15:10:22 2019] GET /api/v1.0/user => generated 249 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25371|app: 0|req: 35/138] 221.221.154.17 () {44 vars in 1016 bytes} [Tue May 28 15:10:23 2019] GET /lorders.html => generated 6591 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 536 bytes (0 switches on core 1)
+[pid: 25374|app: 0|req: 32/139] 221.221.154.17 () {44 vars in 986 bytes} [Tue May 28 15:10:24 2019] GET /api/v1.0/user/orders?role=landlord => generated 895 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 0)
+[pid: 25373|app: 0|req: 39/140] 221.221.154.17 () {44 vars in 983 bytes} [Tue May 28 15:10:26 2019] GET /api/v1.0/user => generated 249 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25371|app: 0|req: 36/141] 221.221.154.17 () {48 vars in 1138 bytes} [Tue May 28 15:10:28 2019] DELETE /api/v1.0/session => generated 38 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 1)
+[pid: 25372|app: 0|req: 38/142] 221.221.154.17 () {44 vars in 992 bytes} [Tue May 28 15:10:29 2019] GET /api/v1.0/session => generated 44 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 1)
+[pid: 25372|app: 0|req: 39/143] 221.221.154.17 () {44 vars in 959 bytes} [Tue May 28 15:10:29 2019] GET /api/v1.0/houses/index => generated 1590 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 177 bytes (1 switches on core 0)
+[pid: 25372|app: 0|req: 40/144] 221.221.154.17 () {44 vars in 945 bytes} [Tue May 28 15:10:29 2019] GET /api/v1.0/areas => generated 697 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25372|app: 0|req: 41/145] 221.221.150.242 () {42 vars in 1032 bytes} [Tue May 28 15:10:31 2019] GET /api/v1.0/image_codes/8e3a4179-d442-437a-bce5-eb1c0de99dea => generated 3134 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 170 bytes (1 switches on core 0)
+Tue May 28 15:14:41 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 15:14:41 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 15:14:41 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 15:14:41 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 15:14:41 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Tue May 28 15:14:51 2019] ***
+compiled with version: 5.4.0 20160609 on 17 May 2019 08:47:25
+os: Linux-4.4.0-148-generic #174-Ubuntu SMP Tue May 7 12:20:14 UTC 2019
+nodename: iZwz9fjkqgok5kb2p98ce2Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /limou/Flask_ihome
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /limou/Flask_ihome
+your processes number limit is 7847
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:5050（可以与项目端口不一致） fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x241d180
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 703440 bytes (686 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x241d180 pid: 25516 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 25516)
+spawned uWSGI worker 1 (pid: 25522, cores: 2)
+spawned uWSGI worker 2 (pid: 25523, cores: 2)
+spawned uWSGI worker 3 (pid: 25524, cores: 2)
+spawned uWSGI worker 4 (pid: 25525, cores: 2)
+*** Stats server enabled on 127.0.0.1:5000 fd: 17 ***
+[pid: 25525|app: 0|req: 1/1] 221.221.151.104 () {48 vars in 1121 bytes} [Tue May 28 15:14:59 2019] GET /register.html => generated 0 bytes in 9 msecs (HTTP/1.1 304) 7 headers in 438 bytes (0 switches on core 0)
+[pid: 25525|app: 0|req: 2/2] 221.221.151.104 () {42 vars in 1032 bytes} [Tue May 28 15:14:59 2019] GET /api/v1.0/image_codes/48bb7cfa-d820-4d28-92f2-e5d28866a9d8 => generated 3675 bytes in 23 msecs (HTTP/1.1 200) 3 headers in 170 bytes (1 switches on core 1)
+make_code 4563
+6417530a-109c-4c37-80d0-8187dc939515
+ret=None
+[pid: 25525|app: 0|req: 3/3] 222.128.181.227 () {44 vars in 1114 bytes} [Tue May 28 15:15:17 2019] GET /api/v1.0/sms_codes/18516985682?image_code=recu&image_code_id=48bb7cfa-d820-4d28-92f2-e5d28866a9d8 => generated 60 bytes in 126394 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Tue May 28 15:18:53 2019] ***
+compiled with version: 5.4.0 20160609 on 17 May 2019 08:47:25
+os: Linux-4.4.0-148-generic #174-Ubuntu SMP Tue May 7 12:20:14 UTC 2019
+nodename: iZwz9fjkqgok5kb2p98ce2Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /limou/Flask_ihome
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /limou/Flask_ihome
+your processes number limit is 7847
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:5050（可以与项目端口不一致） fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1500180
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 703440 bytes (686 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1500180 pid: 25690 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 25690)
+spawned uWSGI worker 1 (pid: 25696, cores: 2)
+spawned uWSGI worker 2 (pid: 25697, cores: 2)
+spawned uWSGI worker 3 (pid: 25698, cores: 2)
+spawned uWSGI worker 4 (pid: 25699, cores: 2)
+*** Stats server enabled on 127.0.0.1:5000 fd: 17 ***
+[pid: 25698|app: 0|req: 1/1] 221.221.154.73 () {48 vars in 1120 bytes} [Tue May 28 15:19:06 2019] GET /register.html => generated 0 bytes in 12 msecs (HTTP/1.1 304) 7 headers in 438 bytes (0 switches on core 0)
+[pid: 25698|app: 0|req: 2/2] 221.221.154.73 () {42 vars in 1031 bytes} [Tue May 28 15:19:07 2019] GET /api/v1.0/image_codes/de49115e-7d30-4e1b-b8a6-5ccea0dae580 => generated 3116 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 170 bytes (1 switches on core 1)
+[pid: 25698|app: 0|req: 3/3] 221.221.154.17 () {42 vars in 1031 bytes} [Tue May 28 15:19:11 2019] GET /api/v1.0/image_codes/c55d3f07-8116-48a1-8799-ddcdcbee480d => generated 3225 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 170 bytes (1 switches on core 0)
+[pid: 25698|app: 0|req: 4/4] 221.221.154.17 () {44 vars in 1113 bytes} [Tue May 28 15:19:17 2019] GET /api/v1.0/sms_codes/18516985682?image_code=96ok&image_code_id=c55d3f07-8116-48a1-8799-ddcdcbee480d => generated 81 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 1)
+[pid: 25699|app: 0|req: 1/5] 221.221.154.17 () {44 vars in 1113 bytes} [Tue May 28 15:19:25 2019] GET /api/v1.0/sms_codes/18516985682?image_code=96ck&image_code_id=c55d3f07-8116-48a1-8799-ddcdcbee480d => generated 81 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 0)
+[pid: 25699|app: 0|req: 2/6] 221.221.148.230 () {42 vars in 1032 bytes} [Tue May 28 15:19:31 2019] GET /api/v1.0/image_codes/917f1f65-8782-49df-a2f9-2131f225142c => generated 3397 bytes in 20 msecs (HTTP/1.1 200) 3 headers in 170 bytes (1 switches on core 1)
+[pid: 25698|app: 0|req: 5/7] 221.221.148.230 () {44 vars in 1114 bytes} [Tue May 28 15:19:37 2019] GET /api/v1.0/sms_codes/18516985682?image_code=k4b3&image_code_id=917f1f65-8782-49df-a2f9-2131f225142c => generated 81 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 0)
+[pid: 25696|app: 0|req: 1/8] 221.221.149.156 () {42 vars in 1032 bytes} [Tue May 28 15:19:43 2019] GET /api/v1.0/image_codes/70a23d66-55ef-4592-8a3c-5fa7eed6be05 => generated 3208 bytes in 29 msecs (HTTP/1.1 200) 3 headers in 170 bytes (1 switches on core 0)
+make_code 6473
+dde13a53-8d91-497e-aa9b-6812256ac744
+ret=None
+[pid: 25698|app: 0|req: 6/9] 221.221.149.156 () {44 vars in 1114 bytes} [Tue May 28 15:19:48 2019] GET /api/v1.0/sms_codes/18516985682?image_code=fcov&image_code_id=70a23d66-55ef-4592-8a3c-5fa7eed6be05 => generated 60 bytes in 255 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 1)
+Tue May 28 15:21:24 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 15:21:24 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 15:21:24 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 15:21:24 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 15:21:24 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 15:21:24 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 15:21:24 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 15:21:24 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Tue May 28 15:21:34 2019] ***
+compiled with version: 5.4.0 20160609 on 17 May 2019 08:47:25
+os: Linux-4.4.0-148-generic #174-Ubuntu SMP Tue May 7 12:20:14 UTC 2019
+nodename: iZwz9fjkqgok5kb2p98ce2Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /limou/Flask_ihome
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /limou/Flask_ihome
+your processes number limit is 7847
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:5050（可以与项目端口不一致） fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x20a2180
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 703440 bytes (686 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x20a2180 pid: 25795 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 25795)
+spawned uWSGI worker 1 (pid: 25801, cores: 2)
+spawned uWSGI worker 2 (pid: 25802, cores: 2)
+spawned uWSGI worker 3 (pid: 25803, cores: 2)
+spawned uWSGI worker 4 (pid: 25804, cores: 2)
+*** Stats server enabled on 127.0.0.1:5000 fd: 17 ***
+[pid: 25804|app: 0|req: 1/1] 221.221.150.171 () {48 vars in 1121 bytes} [Tue May 28 15:21:44 2019] GET /register.html => generated 0 bytes in 9 msecs (HTTP/1.1 304) 7 headers in 438 bytes (0 switches on core 0)
+[pid: 25804|app: 0|req: 2/2] 221.221.150.171 () {42 vars in 1032 bytes} [Tue May 28 15:21:44 2019] GET /api/v1.0/image_codes/194cb31f-2829-4384-b1af-c6b796f3360c => generated 3550 bytes in 20 msecs (HTTP/1.1 200) 3 headers in 170 bytes (1 switches on core 1)
+make_code 6315
+20c95ec8-5f53-4e52-8c76-db151b4af58f
+ret=None
+[pid: 25804|app: 0|req: 3/3] 221.221.149.156 () {44 vars in 1114 bytes} [Tue May 28 15:21:51 2019] GET /api/v1.0/sms_codes/18516985682?image_code=3bma&image_code_id=194cb31f-2829-4384-b1af-c6b796f3360c => generated 60 bytes in 266 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 0)
+[pid: 25804|app: 0|req: 4/4] 117.81.58.83 () {32 vars in 469 bytes} [Tue May 28 16:04:15 2019] GET / => generated 6577 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 574 bytes (0 switches on core 1)
+[pid: 25804|app: 0|req: 5/5] 221.221.154.73 () {44 vars in 982 bytes} [Tue May 28 16:52:09 2019] GET /api/v1.0/session => generated 44 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 0)
+[pid: 25804|app: 0|req: 6/6] 221.221.154.73 () {44 vars in 935 bytes} [Tue May 28 16:52:09 2019] GET /api/v1.0/areas => generated 697 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25801|app: 0|req: 1/7] 221.221.154.73 () {44 vars in 949 bytes} [Tue May 28 16:52:09 2019] GET /api/v1.0/houses/index => generated 1590 bytes in 84 msecs (HTTP/1.1 200) 3 headers in 177 bytes (1 switches on core 0)
+[pid: 25801|app: 0|req: 2/8] 177.85.88.177 () {32 vars in 463 bytes} [Tue May 28 17:42:29 2019] GET / => generated 6577 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 10 headers in 574 bytes (0 switches on core 1)
+[pid: 25804|app: 0|req: 7/9] 83.12.97.90 () {32 vars in 461 bytes} [Tue May 28 17:48:48 2019] GET / => generated 6577 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 574 bytes (0 switches on core 0)
+[pid: 25804|app: 0|req: 8/10] 194.87.148.98 () {32 vars in 463 bytes} [Tue May 28 17:56:33 2019] GET / => generated 6577 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 574 bytes (0 switches on core 1)
+[pid: 25804|app: 0|req: 9/11] 101.132.100.6 () {34 vars in 520 bytes} [Tue May 28 18:07:02 2019] GET /list-1.html => generated 232 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 215 bytes (1 switches on core 0)
+[pid: 25804|app: 0|req: 10/12] 47.97.215.92 () {34 vars in 545 bytes} [Tue May 28 18:18:53 2019] GET /admin/blog/category/add/ => generated 232 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25804|app: 0|req: 11/13] 47.100.100.21 () {34 vars in 544 bytes} [Tue May 28 18:19:38 2019] GET /admin/blog/article/add/ => generated 232 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 215 bytes (1 switches on core 0)
+[pid: 25804|app: 0|req: 12/14] 47.98.62.203 () {34 vars in 521 bytes} [Tue May 28 18:24:41 2019] GET /login/login/ => generated 232 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25804|app: 0|req: 13/15] 106.15.229.102 () {34 vars in 519 bytes} [Tue May 28 18:36:30 2019] GET /login.html => generated 2123 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 575 bytes (0 switches on core 0)
+[pid: 25804|app: 0|req: 14/16] 139.224.15.159 () {34 vars in 537 bytes} [Tue May 28 18:50:32 2019] GET /admin/blog/article/ => generated 232 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25804|app: 0|req: 15/17] 101.132.97.53 () {34 vars in 538 bytes} [Tue May 28 18:54:03 2019] GET /admin/blog/category/ => generated 232 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 215 bytes (1 switches on core 0)
+[pid: 25804|app: 0|req: 16/18] 221.221.150.242 () {44 vars in 983 bytes} [Tue May 28 19:19:34 2019] GET /api/v1.0/session => generated 44 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 175 bytes (1 switches on core 1)
+[pid: 25801|app: 0|req: 3/19] 221.221.150.242 () {44 vars in 950 bytes} [Tue May 28 19:19:34 2019] GET /api/v1.0/houses/index => generated 1590 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 177 bytes (1 switches on core 0)
+[pid: 25801|app: 0|req: 4/20] 221.221.155.72 () {44 vars in 935 bytes} [Tue May 28 19:19:34 2019] GET /api/v1.0/areas => generated 697 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 176 bytes (1 switches on core 1)
+[pid: 25804|app: 0|req: 17/21] 47.97.167.161 () {34 vars in 501 bytes} [Tue May 28 20:07:40 2019] GET /show-1.html => generated 232 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 215 bytes (1 switches on core 0)
+[pid: 25804|app: 0|req: 18/22] 120.77.213.254 () {34 vars in 492 bytes} [Tue May 28 20:13:33 2019] GET /about/ => generated 232 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25801|app: 0|req: 5/23] 120.77.213.254 () {34 vars in 528 bytes} [Tue May 28 20:13:33 2019] GET /admin/blog/category/add/ => generated 232 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 215 bytes (1 switches on core 0)
+[pid: 25801|app: 0|req: 6/24] 47.98.97.81 () {34 vars in 517 bytes} [Tue May 28 20:17:39 2019] GET /admin/blog/category/ => generated 232 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25804|app: 0|req: 19/25] 139.224.116.230 () {34 vars in 481 bytes} [Tue May 28 20:23:02 2019] GET / => generated 6577 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 574 bytes (0 switches on core 0)
+[pid: 25801|app: 0|req: 7/26] 139.224.116.230 () {34 vars in 519 bytes} [Tue May 28 20:23:02 2019] GET /admin/blog/tag/add/ => generated 232 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 215 bytes (1 switches on core 0)
+[pid: 25801|app: 0|req: 8/27] 139.224.116.230 () {34 vars in 503 bytes} [Tue May 28 20:23:02 2019] GET /admin/blog/ => generated 232 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25804|app: 0|req: 20/28] 221.221.148.230 () {44 vars in 815 bytes} [Tue May 28 20:27:28 2019] GET / => generated 6577 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 574 bytes (0 switches on core 1)
+[pid: 25801|app: 0|req: 9/29] 221.221.148.230 () {46 vars in 920 bytes} [Tue May 28 20:27:29 2019] GET /api/v1.0/session => generated 77 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 214 bytes (1 switches on core 1)
+[pid: 25803|app: 0|req: 2/31] 221.221.148.230 () {46 vars in 873 bytes} [Tue May 28 20:27:29 2019] GET /api/v1.0/areas => generated 697 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 215 bytes (1 switches on core 1)
+[pid: 25803|app: 0|req: 2/31] 221.221.148.230 () {46 vars in 887 bytes} [Tue May 28 20:27:29 2019] GET /api/v1.0/houses/index => generated 1590 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 216 bytes (1 switches on core 0)
+[pid: 25804|app: 0|req: 21/32] 221.221.148.230 () {44 vars in 864 bytes} [Tue May 28 20:27:30 2019] GET /favicon.ico => generated 2832 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 10 headers in 573 bytes (0 switches on core 0)
+[pid: 25802|app: 0|req: 1/33] 101.132.177.30 () {34 vars in 490 bytes} [Tue May 28 20:27:31 2019] GET /admin => generated 232 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 215 bytes (1 switches on core 0)
+Tue May 28 20:29:05 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 28 20:29:05 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
