@@ -20,47 +20,80 @@
   
 目录结构：
 
-  Flask_ihome/
-  ├─ihome # 项目主程序
-  │  ├─api_1_0  # v1.0版本
-  │  │  ├─keys  # 支付宝支付公钥私钥
-  │  │  ├─__init__.py 
-  │  │  ├─houses.py # 房屋管理
-  │  │  ├─orders.py # 订单
-  │  │  ├─passprot.py # 用户，登录注册
-  │  │  ├─pay.py # 发起支付请求，保存支付结果
-  │  │  ├─profile.py # 个人信息
-  │  │  ├─verify_code.py # 验证码
-  │  ├─libs # 第三方服务
-  │  │  ├─yuntongxun  #短信服务
-  │  │  │  └─yunpian.py 短信接口
-  │  ├─static # 静态文件  
-  │  ├─tasks  # 异步任务
-  │  │  └─__init__.py
-  │  │  └─task_sms.py 短信异步任务
-  │  ├─utils
-  │  │  ├─captcha # 第三方图片验证码
-  │  │  │  ├─fonts
-  │  │  │  └─__pycache__
-  │  │  ├─commons.py # 公用方法（检测登录状态，正则转换器）
-  │  │  ├─image_storage.py # 将文件存储至七牛云
-  │  │  ├─response_code.py # 项目中所需的自定义状态码
-  │  │  ├─1.png # 将1.png当做一个容器，将需要上传到七牛的图片先存放至本地 然后在上传到云服务
-  │  │  └─__init__.py
-  │  ├─constants.py  # 项目中所有的常量
-  │  ├─models.py  # 模型类
-  │  ├─web_html.py  # 提供静态文件，给页面添加csrf机制
-  ├─logs  # 存放项目日志文件
-  ├─migrations  #执行迁移自动生成的文件
-  ├─config.py  #配置文件
-  ├─manage.py  #项目入口文件
-  └─requirements.txt  # 项目所属依赖
+Flask_ihome/
+
+├─ihome # 项目主程序
+
+│  ├─api_1_0  # v1.0版本
+
+│  │  ├─keys  # 支付宝支付公钥私钥
+
+│  │  ├─__init__.py 
+
+│  │  ├─houses.py # 房屋管理
+
+│  │  ├─orders.py # 订单
+
+│  │  ├─passprot.py # 用户，登录注册
+
+│  │  ├─pay.py # 发起支付请求，保存支付结果
+
+│  │  ├─profile.py # 个人信息
+
+│  │  ├─verify_code.py # 验证码
+
+│  ├─libs # 第三方服务
+
+│  │  ├─yuntongxun  #短信服务
+
+│  │  │  └─yunpian.py 短信接口
+
+│  ├─static # 静态文件  
+
+│  ├─tasks  # 异步任务
+
+│  │  └─__init__.py
+
+│  │  └─task_sms.py 短信异步任务
+
+│  ├─utils
+
+│  │  ├─captcha # 第三方图片验证码
+
+│  │  ├─commons.py # 公用方法（检测登录状态，正则转换器）
+
+│  │  ├─image_storage.py # 将文件存储至七牛云
+
+│  │  ├─response_code.py # 项目中所需的自定义状态码
+
+│  │  ├─1.png # 将1.png当做一个容器，将需要上传到七牛的图片先存放至本地 然后在上传到云服务
+
+│  │  └─__init__.py
+
+│  ├─constants.py  # 项目中所有的常量
+
+│  ├─models.py  # 模型类
+
+│  ├─web_html.py  # 提供静态文件，给页面添加csrf机制
+
+├─logs  # 存放项目日志文件
+
+├─migrations  #执行迁移自动生成的文件
+
+├─config.py  #配置文件
+
+├─manage.py  #项目入口文件
+
+└─requirements.txt  # 项目所属依赖
     
 
 
 基本使用：
 
   python manage.py runserver 
-  # 在manage.py文件的同级目录下启动celery,celery4.0+版本后启动celery任务有点问题 需要在启动命令后面 加-P eventlet参数
-  # -P eventlet参数 需要安装  pip install eventlet
+  
+  在manage.py文件的同级目录下启动celery,celery4.0+版本后启动celery任务有点问题 需要在启动命令后面 加-P eventlet参数
+  
+  -P eventlet参数 需要安装  pip install eventlet
+  
   celery -A ihome.tasks.task_sms worker -l info -P eventlet
